@@ -15,7 +15,7 @@ You must code a terminal version of the famous battleship game. The two players 
   - first terminal: ./navy maps/my_navy.txt
   - second terminal: ./navy [first_player_pid] maps/my_navy2.txt
 
-# Unit Test for the Navy Project
+# Unit Test for the Navy Project:
 
 This is a first year project at EPITECH and there is unit tests where everything is tested except the signals part.
 
@@ -26,7 +26,7 @@ Coverage :
 
 ![navycover](https://user-images.githubusercontent.com/72025226/138266413-e6b15e4d-b1af-4d48-9be3-69be19c20b2c.jpeg)
 
-# Score
+# Score:
 
 100% at Epitech Mouli
 
