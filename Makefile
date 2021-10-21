@@ -26,6 +26,8 @@ LIB 	=	-L lib/my -l my
 
 CFLAGS	=	-I include/
 
+HTMLFLAGS =	gcovr . --html-details --html -o covr.html --exclude tests/
+
 CRITERION =	-lcriterion --coverage
 
 all:	$(NAME)
@@ -43,7 +45,7 @@ clean:
 tests_run:
 	$(MAKE) re -C lib/my
 	gcc $(CRITERION) -o $(TEST_NAME) $(SRC) tests/testsmap.c $(LIB) $(CFLAGS)
-	-./$(TEST_NAME)
+	-./$(TEST_NAME) && $(HTMLFLAGS)
 
 fclean: clean
 	rm -f $(NAME)
