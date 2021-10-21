@@ -26,6 +26,11 @@ Coverage :
 
 ![navycover](https://user-images.githubusercontent.com/72025226/138266413-e6b15e4d-b1af-4d48-9be3-69be19c20b2c.jpeg)
 
+Usage to run the tests :
+
+      - make re
+      - firefox covr.html
+
 # Score:
 
 100% at Epitech Mouli
